@@ -64,5 +64,10 @@ struct Champion {
       let str = name.components(separatedBy: " ").joined().description.lowercased()
       return str + "_tn"
     }
+    
+    var fullImageName: String {
+       let str = name.components(separatedBy: " ").joined().description.lowercased()
+       return str
+    }
         
 }

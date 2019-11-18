@@ -12,12 +12,14 @@ class PicViewController: UIViewController {
     
     
     @IBOutlet weak var imageView: UIImageView!
-    
     @IBOutlet weak var textView: UITextView!
     
+    var data: Champion!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-
+    super.viewDidLoad()
+    imageView.image = UIImage(named: "\(data.fullImageName)")
+    textView.text = data.description
         
     }
     

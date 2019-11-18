@@ -28,6 +28,12 @@ class DetailsViewController: UIViewController {
         champSelect2 = Champion.seperateLanes()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let vc = segue.destination as? PicViewController, let indexPath = tableView2.indexPathForSelectedRow else {
+            return
+        }
+        vc.data = champSelect2[indexPath.section][indexPath.row]
+    }
 }
 
 extension DetailsViewController: UITableViewDataSource {
