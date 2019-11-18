@@ -9,20 +9,19 @@
 /* Begin PBXBuildFile section */
 		5204236723824C4A00381372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204236623824C4A00381372 /* AppDelegate.swift */; };
 		5204236923824C4A00381372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204236823824C4A00381372 /* SceneDelegate.swift */; };
-		5204236B23824C4A00381372 /* ChampsOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204236A23824C4A00381372 /* ChampsOnly.swift */; };
 		5204236E23824C4A00381372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5204236C23824C4A00381372 /* Main.storyboard */; };
 		5204237023824C5200381372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5204236F23824C5200381372 /* Assets.xcassets */; };
 		5204237323824C5200381372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5204237123824C5200381372 /* LaunchScreen.storyboard */; };
 		5204237D23824C8E00381372 /* Champions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204237C23824C8E00381372 /* Champions.swift */; };
 		5204237F238250D300381372 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204237E238250D300381372 /* DetailsViewController.swift */; };
 		52042381238250F800381372 /* PicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52042380238250F800381372 /* PicViewController.swift */; };
+		52042385238254C800381372 /* ChampsOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52042384238254C800381372 /* ChampsOnlyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5204236323824C4A00381372 /* LeagueView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeagueView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5204236623824C4A00381372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5204236823824C4A00381372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5204236A23824C4A00381372 /* ChampsOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampsOnly.swift; sourceTree = "<group>"; };
 		5204236D23824C4A00381372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5204236F23824C5200381372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5204237223824C5200381372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		5204237C23824C8E00381372 /* Champions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champions.swift; sourceTree = "<group>"; };
 		5204237E238250D300381372 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		52042380238250F800381372 /* PicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicViewController.swift; sourceTree = "<group>"; };
+		52042384238254C800381372 /* ChampsOnlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampsOnlyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 			children = (
 				5204236623824C4A00381372 /* AppDelegate.swift */,
 				5204236823824C4A00381372 /* SceneDelegate.swift */,
-				5204236A23824C4A00381372 /* ChampsOnly.swift */,
 				5204236C23824C4A00381372 /* Main.storyboard */,
+				52042384238254C800381372 /* ChampsOnlyViewController.swift */,
 				52042380238250F800381372 /* PicViewController.swift */,
 				5204237E238250D300381372 /* DetailsViewController.swift */,
 				5204237C23824C8E00381372 /* Champions.swift */,
@@ -148,8 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5204237D23824C8E00381372 /* Champions.swift in Sources */,
-				5204236B23824C4A00381372 /* ChampsOnly.swift in Sources */,
 				5204236723824C4A00381372 /* AppDelegate.swift in Sources */,
+				52042385238254C800381372 /* ChampsOnlyViewController.swift in Sources */,
 				5204236923824C4A00381372 /* SceneDelegate.swift in Sources */,
 				5204237F238250D300381372 /* DetailsViewController.swift in Sources */,
 				52042381238250F800381372 /* PicViewController.swift in Sources */,

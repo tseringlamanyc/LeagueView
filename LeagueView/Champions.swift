@@ -59,5 +59,10 @@ struct Champion {
         }
         return sections
     }
+    
+    var thumbnailImageName: String {
+      let str = name.components(separatedBy: " ").joined().dropLast().description.lowercased()
+      return str + "_tn"
+    }
         
 }
