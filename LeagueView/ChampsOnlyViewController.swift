@@ -11,18 +11,40 @@ import UIKit
 class ChampsOnlyViewController: UIViewController {
     
     @IBOutlet weak var tableView1: UITableView!
+    
+    
+    
     private var champSelect = Champion.allChamps {
         didSet {
             tableView1.reloadData()
         }
     }
     
+    private var olderChamp = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("\(champSelect.count)")
         tableView1.dataSource = self
+        sortData(true)
     }
-
+    
+    
+    @IBAction func sort(_ sender: UIBarButtonItem) {
+        olderChamp.toggle()
+        sortData(olderChamp)
+    }
+    
+    
+    func sortData(_ olderChamp: Bool) {
+        if olderChamp {
+            champSelect.sorted { $0.releaseDate < $1.releaseDate }
+            navigationItem.rightBarButtonItem?.title = "Newer Champ"
+        }
+        else {
+            champSelect.sorted { $0.releaseDate > $1.releaseDate }
+            navigationItem.rightBarButtonItem?.title = "Older Champ"
+        }
+    }
 }
 
 extension ChampsOnlyViewController: UITableViewDataSource {

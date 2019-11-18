@@ -136,7 +136,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="jmr-fU-55g"/>
                     </view>
-                    <navigationItem key="navigationItem" id="HcT-KO-7hB"/>
+                    <navigationItem key="navigationItem" id="HcT-KO-7hB">
+                        <barButtonItem key="rightBarButtonItem" title="Older Champions" id="mIm-IR-52g">
+                            <connections>
+                                <action selector="sort:" destination="Zlv-dM-yP2" id="rBz-fm-zfi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView1" destination="Dja-aJ-SLm" id="hYb-Ba-Z6f"/>
                     </connections>
