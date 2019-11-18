@@ -12,8 +12,6 @@ class ChampsOnlyViewController: UIViewController {
     
     @IBOutlet weak var tableView1: UITableView!
     
-    
-    
     private var champSelect = Champion.allChamps {
         didSet {
             tableView1.reloadData()

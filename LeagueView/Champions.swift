@@ -61,7 +61,7 @@ struct Champion {
     }
     
     var thumbnailImageName: String {
-      let str = name.components(separatedBy: " ").joined().dropLast().description.lowercased()
+      let str = name.components(separatedBy: " ").joined().description.lowercased()
       return str + "_tn"
     }
         
